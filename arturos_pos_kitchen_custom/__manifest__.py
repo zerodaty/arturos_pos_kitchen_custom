@@ -9,7 +9,7 @@
   'description': """ POS Kitchen Customizations """,
 
   # Author
-  'author': 'Frany Velasquez,
+  'author': 'Frany Velasquez',
   'maintainer': 'Frany Velasquez',
   'license': 'LGPL-3',
   'contributors': [
