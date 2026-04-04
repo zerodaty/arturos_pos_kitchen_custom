@@ -5,7 +5,7 @@ from odoo import fields, models, api
 class PosConfig(models.Model):
     _inherit = 'pos.config'
 
-    #Este boton tiene que traerse un pos config personalizado que permita usar la funcionalidad de SDK de odoo sin todo lo demas que trae el modo restarante de base 
+    # Este boton tiene que traerse un pos config personalizado que permita usar la funcionalidad de SDK de odoo sin todo lo demas que trae el modo restarante de base 
     enable_kds_only = fields.Boolean(string="Enable KDS Only Mode", help="If checked, this enables a KDS-only mode: hides Table Management UI (Floor Screen, Table Button) and unblocks the Order button.")
     
     enable_auto_send_on_payment = fields.Boolean(
